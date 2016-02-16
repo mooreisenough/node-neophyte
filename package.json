@@ -1,0 +1,29 @@
+{
+  "name": "learnyounode",
+  "version": "1.0.0",
+  "description": "Learn NodeJS basics",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "bl": "^1.1.2",
+    "concat-stream": "^1.5.1",
+    "mocha": "^2.3.4",
+    "moment": "^2.11.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooreisenough/node-neophyte-learnyounode.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "mooreisenough",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mooreisenough/node-neophyte-learnyounode/issues"
+  },
+  "homepage": "https://github.com/mooreisenough/node-neophyte-learnyounode#readme"
+}

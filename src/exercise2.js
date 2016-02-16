@@ -12,5 +12,5 @@ if (process.argv.length > 2) {
     }
     console.log(sum);
 } else {
-    throw new Error("Sorry you must enter some numbers");
+    throw new Error("Sorry you must enter at least a few numbers so that I can SUM");
 }
