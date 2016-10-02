@@ -1,0 +1,27 @@
+{
+  "name": "LearnHarmony.com",
+  "version": "0.1.1",
+  "description": "A website for learning JavaScript.next (ES6)",
+  "author": "Brian Genisio",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "front-matter": "^2.1.0",
+    "graceful-fs": "^4.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-http-server": "^2.0.0",
+    "highlight.js": "^9.6.0",
+    "lodash": "^4.0.0",
+    "marked": "^0.3.2",
+    "minimatch": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BrianGenisio/learnharmony.git"
+  },
+  "scripts": {
+    "test": "grunt"
+  }
+}

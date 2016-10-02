@@ -1,0 +1,33 @@
+{
+  "name": "es6-katas",
+  "version": "1.0.0",
+  "description": "ES6 kata practices from http://es6katas.org/",
+  "scripts": {
+    "compile": "babel --presets es2015,stage-0 -d lib/ tests/",
+    "test": "mocha --compilers js:babel-core/register --require babel-polyfill tests/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jostw/es6-katas.git"
+  },
+  "keywords": [
+    "es6",
+    "katas"
+  ],
+  "author": "jos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jostw/es6-katas/issues"
+  },
+  "homepage": "https://github.com/jostw/es6-katas",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.13.2",
+    "babel-polyfill": "^6.13.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "jsdom": "^9.4.2",
+    "minimatch": "^3.0.3",
+    "mocha": "^3.0.2"
+  }
+}
